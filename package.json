@@ -1,0 +1,14 @@
+{
+  "name": "next.js-learn",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "dev",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "check-next": "node -e \"try { require('next'); } catch (e) { console.error('Error: No Next.js version could be detected in your project. Make sure \\'next\\' is installed in \\'dependencies\\' or \\'devDependencies\\''); process.exit(1); }\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
